@@ -30,6 +30,14 @@
 		"type": "element",
 		"name": "br"
 	},
+	{
+		"type": "element",
+		"name": "br"
+	},
+	{
+		"type": "element",
+		"name": "br"
+	},
 	
 	{
 		"type": "use",
@@ -67,12 +75,33 @@
 		"type": "element",
 		"name": "br"
 	},
+	{
+		"type": "element",
+		"name": "br"
+	},
+	{
+		"type": "element",
+		"name": "br"
+	},
+	{
+		"type": "element",
+		"name": "br"
+	},
+	{
+		"type": "element",
+		"name": "br"
+	},
+	{
+		"type": "element",
+		"name": "br"
+	},
 	
 	{
 		"type": "element",
 		"name": "p",
 		"attributes": {
-							"class": "copyright"
+							"class": "copyright",
+							"style": "text-align: center;"
 					  },
 		"innerHTML": "© Philip Kimber 2021. All rights reserved"
 	}
