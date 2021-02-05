@@ -65,45 +65,23 @@
 	
 	{
 		"type": "element",
-		"name": "br"
-	},
-	{
-		"type": "element",
-		"name": "br"
-	},
-	{
-		"type": "element",
-		"name": "br"
-	},
-	{
-		"type": "element",
-		"name": "br"
-	},
-	{
-		"type": "element",
-		"name": "br"
-	},
-	{
-		"type": "element",
-		"name": "br"
-	},
-	{
-		"type": "element",
-		"name": "br"
-	},
-	{
-		"type": "element",
-		"name": "br"
-	},
-	
-	{
-		"type": "element",
-		"name": "p",
+		"name": "div",
 		"attributes": {
-							"class": "copyright",
-							"style": "text-align: center;"
+							"class": "footer"
 					  },
-		"innerHTML": "© Philip Kimber 2021. All rights reserved"
+		"childElements": [
+							{
+								"type": "element",
+								"name": "p",
+								"attributes": {
+													"id": "copyright_line",
+													"style": "text-align: center;"
+											  },
+								"innerHTML": "© Philip Kimber 2021. All rights reserved"
+							}
+						 ]
+	
 	}
+	
 	
 ]
