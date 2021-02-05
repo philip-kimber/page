@@ -157,14 +157,12 @@ class _InterpretedJSON {
 			var original_json_obj = this;
 			
 			function callback(el_arr) {
-				console.log(el_arr);
 				for (let el of el_arr) {
 					original_json_obj.elements_array.push(el);
 				}
 				token_object.resolved_elements_array = true;
 			}
 			function functions_callback(f_obj) {
-				console.log(f_obj);
 				original_json_obj.functions = {...original_json_obj.functions, ...f_obj};
 				token_object.resolved_functions_obj = true;
 			}

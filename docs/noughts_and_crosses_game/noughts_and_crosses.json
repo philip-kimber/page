@@ -15,7 +15,7 @@
 	
 	{
 		"type": "stylesheet",
-		"src": "noughts_and_crosses/noughts_style.css"
+		"src": "noughts_and_crosses_game/noughts_style.css"
 	},
 	
 	{
@@ -53,6 +53,28 @@
 						"name": "title",
 						"innerHTML": "Noughts and Crosses | Play against the algorithm"
 				   }
+	},
+	
+	{
+		"type": "element",
+		"name": "br"
+	},
+	{
+		"type": "element",
+		"name": "br"
+	},
+	{
+		"type": "element",
+		"name": "br"
+	},
+	
+	{
+		"type": "element",
+		"name": "p",
+		"attributes": {
+							"class": "copyright"
+					  },
+		"innerHTML": "© Philip Kimber 2021. All rights reserved"
 	}
 	
 ]
