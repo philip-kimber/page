@@ -1,8 +1,33 @@
+<!DOCTYPE html>
 <html>
 
+<head>
+	<meta charset="utf-8">
+	
+	<script src='js_pageloader.js'></script>
+	<script>
+		const LOAD_PAGE_SET = function() {
+			const url_query_string = window.location.search;
+			const url_parameters = new URLSearchParams(url_query_string);
+			const m_param = url_parameters.get("m") || "home";
+			const json_source = "json_headers/" + m_param + ".json";
+			
+			const add_elements = function(elements) {
+				var main = document.getElementById("main");
+				for (let el of elements) { main.appendChild(el); }
+			};
+			
+			_USE_JSON(json_source, add_elements);
+			
+		};
+	</script>
+</head>
 
-<body>
-	<p> Hello World! </p>
+
+<body onload="LOAD_PAGE_SET()">
+	<div id="main">
+	</div>
 </body>
+
 
 </html>
