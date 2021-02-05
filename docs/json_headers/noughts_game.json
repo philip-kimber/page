@@ -1,0 +1,6 @@
+[
+	{
+		"type": "include",
+		"src": "noughts_and_crosses_game/noughts_and_crosses.json"
+	}
+]

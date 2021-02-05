@@ -1,0 +1,80 @@
+
+.tile {
+	height: 60px;
+	width: 60px;
+	padding: 0px;
+	margin: 0 auto;
+	display: inline;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.board_row {
+	padding: 0px;
+	margin: 0px;
+	width: 190px;
+	margin: 0 auto;
+	display: block;
+}
+
+.board {
+	width: 30%;
+}
+
+.noughts_start {
+	font-family: Verdana;
+	font-size: 14px;
+	width: 60%;
+	margin: 0 auto;
+	height: 35px;
+}
+
+.left_panel {
+	margin-left: 10%;
+	width: 20%;
+	text-align: center;
+}
+.right_panel {
+	width: 20%;
+	margin-right: 10%;
+	text-align: center;
+}
+
+.above_board {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.second_row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.noughts_app {
+	width: 70%;
+	height: 400px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	
+	font-family: Verdana;
+	font-size: 14px;
+	
+	border: 2px solid black;
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+
+.main {
+	background-color: #fff5e3;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}

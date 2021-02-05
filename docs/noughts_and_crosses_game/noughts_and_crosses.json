@@ -1,0 +1,58 @@
+[
+	{
+		"type": "def",
+		"name": "noughts_main",
+		"element": {
+						"type": "element",
+						"name": "div",
+						"attributes": {
+											"class": "noughts_app",
+											"id": "noughts_app"
+									  },
+						"innerHTML": "<div class='above_board'> <h1>Noughts and Crosses</h1> <h3 id='go_indicator'>&nbsp;</h3> </div>  <div class='second_row'> <div class='column left_panel'> <h2>Symbol to play</h2> <div> <input type='radio' id='human_x_radio' name='noughts_symbol_select' value='X' checked> <label for='human_x_radio'>X</label> </div> <div> <input type='radio' id='human_o_radio' name='noughts_symbol_select' value='O'> <label for='human_o_radio'>O</label> </div> </div>  <div class='column board'> <div class='board_row' id='board_row0'> <button class='tile' id='noughts_00'>&nbsp;</button> <button class='tile' id='noughts_01'>&nbsp;</button> <button class='tile' id='noughts_02'>&nbsp;</button> </div>  <div class='board_row' id='board_row1'> <button class='tile' id='noughts_10'>&nbsp;</button> <button class='tile' id='noughts_11'>&nbsp;</button> <button class='tile' id='noughts_12'>&nbsp;</button> </div>  <div class='board_row' id='board_row2'> <button class='tile' id='noughts_20'>&nbsp;</button> <button class='tile' id='noughts_21'>&nbsp;</button> <button class='tile' id='noughts_22'>&nbsp;</button> </div> </div>  <div class='column right_panel'> <h2>Who goes first?</h2> <div> <input type='radio' id='computer_first' name='noughts_go_select' value='computer' checked> <label for='computer_first'>Computer goes first</label> </div> <div> <input type='radio' id='human_first' name='noughts_go_select' value='human'> <label for='human_first'>You go first</label> </div>  <br><br> <button id='noughts_start'>Start game</button>  </div> </div>"
+				   }
+	},
+	
+	{
+		"type": "stylesheet",
+		"src": "noughts_and_crosses/noughts_style.css"
+	},
+	
+	{
+		"type": "element",
+		"name": "br"
+	},
+	{
+		"type": "element",
+		"name": "br"
+	},
+	{
+		"type": "element",
+		"name": "br"
+	},
+	
+	{
+		"type": "use",
+		"name": "noughts_main"
+	},
+	
+	{
+		"type": "js",
+		"src": "noughts_and_crosses_game/noughts_engine.js"
+	},
+	
+	{
+		"type": "js",
+		"src": "noughts_and_crosses_game/noughts_game_app.js"
+	},
+	
+	{
+		"type": "head",
+		"element": {
+						"type": "element",
+						"name": "title",
+						"innerHTML": "Noughts and Crosses | Play against the algorithm"
+				   }
+	}
+	
+]
