@@ -249,7 +249,7 @@ class NoughtsBoard {
 						}
 						var choices = [];
 						for (var c of board_object.corner_indices) {
-							if (c != avoid) {
+							if (!((c[0] == avoid[0]) && (c[1] == avoid[1]))) {
 								choices.push([...c, symbol]);
 							}
 						}
