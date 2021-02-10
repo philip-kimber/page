@@ -30,12 +30,6 @@
 						"id": "paragraph2"
 					  },
 		"innerHTML": "More content to come..."
-	},
-	
-	{
-		"type": "head",
-		"name": "style",
-		"innerHTML": "* { margin:0; padding:0; box-sizing:border-box; }"
 	}
 	
 ]
