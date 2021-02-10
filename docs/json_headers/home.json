@@ -1,26 +1,11 @@
 [
 	{
-		"type": "include",
-		"src": "basic_header/default_header.json"
-	},
-	
-	{
 		"type": "element",
 		"name": "p",
 		"attributes": {
 						"id": "paragraph1"
 					  },
-		"innerHTML": "Welcome"
-	},
-	
-	{
-		"type": "element",
-		"name": "a",
-		"attributes": {
-						"id": "noughts_link",
-						"href": "?m=noughts_game"
-					  },
-		"innerHTML": "Noughts and crosses game - play against my algorithm"
+		"innerHTML": "Hello World!"
 	},
 	
 	{
@@ -29,7 +14,7 @@
 		"attributes": {
 						"id": "paragraph2"
 					  },
-		"innerHTML": "More content to come..."
+		"innerHTML": "This page loaded by complex process"
 	}
 	
 ]
