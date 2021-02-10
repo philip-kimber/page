@@ -1,7 +1,15 @@
 
+body {
+	margin: 0;
+}
+
 #basic_header {
 	background-color: #152285;
 	width: 100%;
+	
+	display: flex;
+    justify-content: space-between;
+	
 }
 
 #basic_header_main_text {
@@ -11,7 +19,8 @@
 	color: #ccd2ff;
 	text-align: right;
 	display: inline;
-	margin-left: 85%;
+	width: 50%;
+	margin: 0;
 }
 
 #basic_header_home_link {
@@ -22,4 +31,6 @@
 	text-align: left;
 	display: inline;
 	text-decoration: none;
+	width: 50%;
+	margin: 0;
 }
