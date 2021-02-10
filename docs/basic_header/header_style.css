@@ -1,0 +1,25 @@
+
+#basic_header {
+	background-color: #152285;
+	width: 100%;
+}
+
+#basic_header_main_text {
+	padding: 6px;
+	font-size: 12px;
+	font-family: Verdana;
+	color: #ccd2ff;
+	text-align: right;
+	display: inline;
+	margin-left: 85%;
+}
+
+#basic_header_home_link {
+	padding: 6px;
+	font-size: 12px;
+	font-family: Verdana;
+	color: #ccd2ff;
+	text-align: left;
+	display: inline;
+	text-decoration: none;
+}

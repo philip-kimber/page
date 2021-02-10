@@ -1,0 +1,27 @@
+[
+	{
+		"type": "def",
+		"name": "default_header",
+		"element": {
+						"type": "element",
+						"name": "div",
+						"attributes": {
+										"class": "header",
+										"id": "basic_header"
+									  },
+						"innerHTML": "<a href='?m=home' id='basic_header_home_link'>&lt;- Home</a><h3 id='basic_header_main_text'>Philip Kimber</h3>"
+				   }
+	
+	},
+	
+	{
+		"type": "stylesheet",
+		"src": "basic_header/header_style.css"
+	},
+	
+	{
+		"type": "use",
+		"name": "default_header"
+	}
+	
+]

@@ -19,6 +19,11 @@
 	},
 	
 	{
+		"type": "include",
+		"src": "basic_header/default_header.json"
+	},
+	
+	{
 		"type": "element",
 		"name": "br"
 	},
